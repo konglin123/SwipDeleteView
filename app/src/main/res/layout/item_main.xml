@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.swipedeleteview.SwipDeleteView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sdv"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    tools:context=".MainActivity">
+
+    <include android:id="@+id/content" layout="@layout/item_content"/>
+    <include android:id="@+id/delete" layout="@layout/item_delete"/>
+
+</com.example.swipedeleteview.SwipDeleteView>
